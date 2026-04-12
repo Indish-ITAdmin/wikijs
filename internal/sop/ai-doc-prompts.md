@@ -2,13 +2,13 @@
 title: AI Prompt Snippets
 description: 
 published: true
-date: 2026-04-12T00:20:19.501Z
+date: 2026-04-12T00:23:48.921Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-12T00:20:19.501Z
 ---
 
-# AI Prompt Snippets for Wiki.js Documentation
+# AI Doc Snippets for Wiki.js Documentation
 
 Paste the relevant prompt at the start of any AI chat session before asking for help writing a doc.
 
