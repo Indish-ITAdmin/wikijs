@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2026-04-11T23:22:56.625Z
+date: 2026-04-12T00:26:38.255Z
 tags: 
 editor: markdown
 dateCreated: 2026-04-11T23:22:56.625Z
@@ -10,12 +10,7 @@ dateCreated: 2026-04-11T23:22:56.625Z
 
 # Documentation SOP
 
-**Path:** `internal/sop/documentation`  
-**Tags:** `sop`, `documentation`, `wikijs`
-
 This is the rulebook for how our team creates and maintains documentation. Read this before writing your first page. It is short — follow it and the wiki stays useful. Ignore it and it becomes a mess nobody trusts.
-
----
 
 ## Why This Exists
 
@@ -23,7 +18,6 @@ Before this wiki, IT knowledge lived in one person's head. When that person is b
 
 The goal is simple: **anyone on the team should be able to find what they need without asking.**
 
----
 
 ## Who Writes What
 
@@ -34,8 +28,6 @@ The goal is simple: **anyone on the team should be able to find what they need w
 | Technical Sales | Customer install guides, Siemens product docs |
 
 If something falls between two roles — write it anyway and tag the other person for review. A rough doc is better than no doc.
-
----
 
 ## The Golden Rules
 
@@ -74,7 +66,6 @@ Always check the structure before creating a new page. Put docs in the right pla
 
 Example: FlexLM licensing is used by NX, Process Simulate, and TIA Portal. It lives at `/siemens/licensing/flexlm`. Each product page has one line linking there — not a copy of the licensing steps.
 
----
 
 ## Naming Pages
 
@@ -87,7 +78,6 @@ Example: FlexLM licensing is used by NX, Process Simulate, and TIA Portal. It li
 
 > Wiki.js treats `/internal` and `/Internal` as two different pages. Always lowercase.
 
----
 
 ## Page Length and Format
 
@@ -129,7 +119,6 @@ See → [FlexLM Licensing](/siemens/licensing/flexlm)
 
 **When to split into child pages:** Only when a section becomes too long to maintain, or when different people own different sections. For an SMB like us, one page per product is almost always enough.
 
----
 
 ## Tags
 
@@ -148,7 +137,6 @@ Always add tags when creating a page. Tags help find content across different fo
 
 Use multiple tags per page. A Siemens install page should have `siemens`, `install`, and possibly `helpdesk` if it's relevant to them.
 
----
 
 ## Landing Pages
 
@@ -158,7 +146,6 @@ When you create the first page in a new folder, immediately create the folder's 
 
 Without landing pages, breadcrumb links lead to dead ends.
 
----
 
 ## Using AI to Write Docs
 
@@ -167,8 +154,6 @@ We have AI prompt templates to help write docs faster. Use them — they are tun
 See → [AI Doc Prompts](/internal/sop/ai-doc-prompts)
 
 Paste the right prompt at the start of any AI chat, fill in the topic, and use the output as a starting draft. Always review before publishing — AI doesn't know your specific versions, hostnames, or environment details.
-
----
 
 ## Reviewing and Maintaining Docs
 
@@ -180,7 +165,6 @@ Paste the right prompt at the start of any AI chat, fill in the topic, and use t
   ```
 - Every quarter, IT Admin does a quick pass to check for obviously stale pages.
 
----
 
 ## What Not to Do
 
@@ -189,7 +173,6 @@ Paste the right prompt at the start of any AI chat, fill in the topic, and use t
 - **Don't use vague titles** — `misc.md`, `notes.md`, `temp.md` are not page names
 - **Don't leave empty pages** — if you create a page, put at least a stub in it
 
----
 
 ## Related Pages
 
